@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-28T03:54:31.736Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="jAAKFsSCmVcmj4FHppCq" version="21.0.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-28T06:44:30.730Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="w-fHzmvY66F2d9dA2anl" version="21.0.10" type="github">
   <diagram name="第 1 页" id="C_D77PqUY0UO2HoVDjRl">
     <mxGraphModel dx="1196" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1400" math="0" shadow="0">
       <root>
@@ -112,10 +112,10 @@
         <mxCell id="v_dJ7olOnK69bbIHI7S8-40" value="1. 默认生成唯一标识，因为 interfaceName&amp;nbsp; 不能作为唯一标识，需要和 pageList 一起才能算唯一标识&lt;br&gt;2. 需要带弹窗路由，展示的时候直接调用路由即可。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="450" y="160" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="v_dJ7olOnK69bbIHI7S8-42" value="bridge 调用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="v_dJ7olOnK69bbIHI7S8-42" value="bridge 调用,携带唯一标识" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="230" y="730" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="v_dJ7olOnK69bbIHI7S8-43" value="原生调用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="v_dJ7olOnK69bbIHI7S8-43" value="原生调用,携带唯一标识" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="540" y="730" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
